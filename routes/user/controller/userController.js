@@ -23,10 +23,6 @@ async function signup(req, res) {
         res.status(500).json({ message: "failure", data: e.message });
 
     }
-
-
-
-
 }
 
 module.exports = {

@@ -2,7 +2,7 @@ const express = require("express");
 const logger = require("morgan");
 const app = express();
 
-const userRouter = require('./routes/user/userRouter')
+const userRouter = require('./routes/user/userRouter');
 
 app.use(logger('dev'));
 
